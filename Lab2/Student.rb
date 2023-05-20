@@ -75,4 +75,8 @@ class Student
   def github=(new_github)
     @github = new_github
   end
+
+  def information
+    "ID:#{id}\nФамилия:#{last_name}\nИмя:#{first_name}\nОтчество:#{surname}\nТелефон:#{phone}\nТелеграм:#{telegram}\nПочта:#{mail}\nGitHub:#{github}\n"
+  end
 end
